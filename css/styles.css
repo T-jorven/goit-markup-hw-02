@@ -18,6 +18,7 @@ contacts in the footer background: rgba(255, 255, 255, 0.6);*/
   --clear-white: #ffffff;
   --contact-footer: rgba(255, 255, 255, 0.6);
   --logo2-footer: rgba(255, 255, 255, 1);
+  --button-sorting: #f5f4fa;
 }
 body {
   background-color: var(--background-main-color);
@@ -86,7 +87,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 50px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -119,8 +120,24 @@ body {
 }
 /* End of sections */
 
-/* Comment */
-/* Comment */
+/* page 2 */
+.button-sorting {
+  color: var(--title-text-color);
+  background-color: var(--button-sorting);
+}
+.button-sorting:focus,
+.button-sorting:hover {
+  color: var(--button-sorting);
+  background-color: var(--accent-color);
+}
+.title2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* End of page 2 */
 
 /* footer */
 .logo2-footer {
