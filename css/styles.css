@@ -1,13 +1,4 @@
-/*main text color #212121
-suplementory text color #757575;
-accent color #2196F3;
-white background: #FFFFFF;
-hero background: #2F303A;
-block 2 background #E5E5E5;
-our team background: #F5F4FA;
-footer background: #2F303A;
 
-contacts in the footer background: rgba(255, 255, 255, 0.6);*/
 :root {
   --main-text-color: #757575;
   --title-text-color: #212121;
@@ -41,10 +32,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo1 {
+.logo_ptOne {
   color: var(--accent-color);
 }
-.logo2 {
+.logo_ptTwo {
   color: var(--header-studio);
 }
 /*navigation*/
@@ -55,7 +46,7 @@ body {
   line-height: 1.14;
 }
 .site_nav:hover {
-  color: var(--accent-color) 3;
+  color: var(--accent-color);
 }
 /* contacts*/
 .contact {
@@ -85,11 +76,8 @@ body {
 }
 .button {
   cursor: pointer;
-  width: 200px;
-  height: 50px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  
 }
 .button-text {
   font-weight: bold;
@@ -104,8 +92,6 @@ body {
 /* end of hero */
 
 /* sections */
-.section {
-}
 .section_heading {
   font-weight: 700;
   font-size: 14px;
@@ -140,7 +126,7 @@ body {
 /* End of page 2 */
 
 /* footer */
-.logo2-footer {
+.logoTwo-footer {
   color: var(--logo2-footer);
 }
 .contact-footer {
