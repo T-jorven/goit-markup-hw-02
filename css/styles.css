@@ -46,7 +46,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.site_nav:hover {
+.site_nav:hover,
+.site_nav:focus {
   color: var(--accent-color);
 }
 /* contacts*/
@@ -79,6 +80,11 @@ body {
   cursor: pointer;
   background: #2196f3;
   
+}
+.button:focus,
+.button:hover {
+  background: #188CE8;
+;
 }
 .button-text {
   font-weight: bold;
