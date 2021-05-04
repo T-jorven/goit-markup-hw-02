@@ -11,6 +11,7 @@
   --logo2-footer: rgba(255, 255, 255, 1);
   --button-sorting: #f5f4fa;
 }
+
 body {
   background-color: var(--background-main-color);
   font-family: "Roboto", "Serif";
