@@ -109,13 +109,14 @@ body {
 .button-sorting {
   color: var(--title-text-color);
   background-color: var(--button-sorting);
+  cursor: pointer;
 }
 .button-sorting:focus,
 .button-sorting:hover {
   color: var(--button-sorting);
   background-color: var(--accent-color);
 }
-.title2 {
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -131,7 +132,7 @@ body {
   color: var(--contact-footer);
   letter-spacing: 0.03em;
 }
-address {
+.footer-address {
   color: var(--clear-white);
   font-style: normal;
   font-weight: normal;
